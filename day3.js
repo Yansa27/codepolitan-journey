@@ -29,6 +29,20 @@ while ( i <= 10) {
     i++    
 }
 
+// 4 do while
 
+let x = 1
+
+do {
+    console.log("part " + x);
+    x++
+} while ( x <= 10);
+
+// 5 infinite loops 
+// let z = 1;
+
+// while(z <= 10) {
+//     console.log(i);
+// }
 
 
