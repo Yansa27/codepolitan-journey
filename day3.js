@@ -45,4 +45,14 @@ do {
 //     console.log(i);
 // }
 
+//  spread Operator
+
+let nama = { firstName : 'Yansa' , age : 18};
+let nama2 = {firstname : 'Apis' ,gender : 'M'}
+
+const newObj = {...nama , ...nama2};
+
+console.log(newObj);
+
+
 
