@@ -55,4 +55,11 @@ const newObj = {...nama , ...nama2};
 console.log(newObj);
 
 
+let firstName = "tes";
+let age = 10;
+
+({firstName , age} = nama );
+
+console.log(firstName);
+console.log(age);
 
